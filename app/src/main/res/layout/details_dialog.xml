@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/dealer_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dealer_name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gstin_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/gstin"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dealer_name_text" />
+
+
+    <TextView
+        android:id="@+id/ptin_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/ptin"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/gstin_text"
+        app:layout_constraintTop_toBottomOf="@+id/gstin_text" />
+
+    <TextView
+        android:id="@+id/phone_number_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/phone_number"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/ptin_text"
+        app:layout_constraintTop_toBottomOf="@+id/ptin_text" />
+
+    <TextView
+        android:id="@+id/address_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/address"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/phone_number_text"
+        app:layout_constraintTop_toBottomOf="@+id/phone_number_text" />
+
+    <TextView
+        android:id="@+id/entry_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/entry"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/address_text"
+        app:layout_constraintTop_toBottomOf="@+id/address_text" />
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/entry_text"
+        app:layout_constraintTop_toBottomOf="@+id/entry_text" />
+
+    <TextView
+        android:id="@+id/tax_2017_2018_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tax_paid_2017_2018"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/email_text"
+        app:layout_constraintTop_toBottomOf="@+id/email_text" />
+
+    <TextView
+        android:id="@+id/tax_2018_2019_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tax_paid_2018_2019"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tax_2017_2018_text"
+        app:layout_constraintTop_toBottomOf="@+id/tax_2017_2018_text" />
+
+    <TextView
+        android:id="@+id/tax_2019_2020_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tax_paid_2019_2020"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tax_2018_2019_text"
+        app:layout_constraintTop_toBottomOf="@+id/tax_2018_2019_text" />
+
+    <TextView
+        android:id="@+id/tax_2020_2021_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tax_paid_2020_2021"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tax_2019_2020_text"
+        app:layout_constraintTop_toBottomOf="@+id/tax_2019_2020_text" />
+
+    <TextView
+        android:id="@+id/tax_2021_2022_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tax_paid_2021_2022"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tax_2020_2021_text"
+        app:layout_constraintTop_toBottomOf="@+id/tax_2020_2021_text" />
+
+    <TextView
+        android:id="@+id/tax_2022_2023_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tax_paid_2022_2023"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tax_2021_2022_text"
+        app:layout_constraintTop_toBottomOf="@+id/tax_2021_2022_text" />
+
+    <HorizontalScrollView
+        android:id="@+id/dealer_name_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dealer_name_text"
+        app:layout_constraintStart_toEndOf="@+id/dealer_name_text">
+
+        <TextView
+            android:id="@+id/dealer_name_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dealer_name_value"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/gstin_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:text="@string/registration_number_value"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gstin_text"
+        app:layout_constraintStart_toEndOf="@+id/dealer_name_text" />
+
+    <TextView
+        android:id="@+id/ptin_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registration_number_value"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ptin_text"
+        app:layout_constraintStart_toStartOf="@+id/gstin_dialog" />
+
+    <TextView
+        android:id="@+id/phone_number_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number_value"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/phone_number_text"
+        app:layout_constraintStart_toStartOf="@+id/ptin_dialog" />
+
+    <HorizontalScrollView
+        android:id="@+id/address_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        app:layout_constraintBottom_toBottomOf="@+id/address_text"
+        app:layout_constraintStart_toEndOf="@+id/address_text">
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/entry_text"
+        app:layout_constraintStart_toStartOf="@+id/ptin_dialog" />
+
+    <HorizontalScrollView
+        android:id="@+id/email_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        app:layout_constraintBottom_toBottomOf="@+id/email_text"
+        app:layout_constraintStart_toEndOf="@+id/email_text">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/tax_2017_2018"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tax_2017_2018_text"
+        app:layout_constraintStart_toStartOf="@+id/gstin_dialog" />
+
+    <TextView
+        android:id="@+id/tax_2018_2019"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tax_2018_2019_text"
+        app:layout_constraintStart_toStartOf="@+id/tax_2017_2018" />
+
+    <TextView
+        android:id="@+id/tax_2019_2020"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tax_2019_2020_text"
+        app:layout_constraintStart_toStartOf="@+id/tax_2018_2019" />
+
+    <TextView
+        android:id="@+id/tax_2020_2021"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tax_2020_2021_text"
+        app:layout_constraintStart_toStartOf="@+id/tax_2019_2020" />
+
+    <TextView
+        android:id="@+id/tax_2021_2022"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tax_2021_2022_text"
+        app:layout_constraintStart_toStartOf="@+id/tax_2020_2021" />
+
+    <TextView
+        android:id="@+id/tax_2022_2023"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tax_2022_2023_text"
+        app:layout_constraintStart_toStartOf="@+id/tax_2021_2022" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filter_2017_2018"
+        android:title="@string/not_paid_2017_2018"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/filter_2018_2019"
+        android:title="@string/not_paid_2018_2019"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/filter_2019_2020"
+        android:title="@string/not_paid_2019_2020"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/filter_2020_2021"
+        android:title="@string/not_paid_2020_2021"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/filter_2021_2022"
+        android:title="@string/not_paid_2021_2022"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/filter_2022_2023"
+        android:title="@string/not_paid_2022_2023"
+        android:checkable="true"/>
+</menu>
